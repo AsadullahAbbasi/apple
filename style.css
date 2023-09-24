@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+
+}
+/* ==========================================utility--class======================== */
+.container{
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}
+.img{
+    max-width: 100%;
+    /* height: auto; */
+}
+/* ==================================nav-section================================== */
+.nav-section{
+    background-color: #fbfbfd;
+  /* display: block; */
+   position: sticky;
+   top: 0;
+}
+
+.nav{
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+text-transform: capitalize;
+
+
+}
+.nav-links ul{
+    list-style: none;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav-links{
+    flex-basis: 1000px;
+    letter-spacing: 0.15px;
+  
+}
+
+.nav a{
+    color:#000000;
+}
+.section1-img img{
+    max-width: 100%;
+}
+.section-1{
+    background-color: #f2f2f4;
+}
+.section-1 h1{
+    font-size:3.5rem;
+   
+}
+.section-1 p{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.shop{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #0066cc;
+}
+.sec1-container{
+flex-direction: column;
+text-align: center;
+padding-block: 60px;
+
+}
+.section-2{
+    background-color: #fafafa;
+    margin-top: 20px;
+    text-align: center;
+}
+.sec2-container{
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+}
+.sec2-text h1{
+    font-size: 3.8rem;
+}
+.sec2-text h2{
+font-size: 2rem;
+font-weight: 100;
+}
+.cards{
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.card01{
+  
+   width: calc(50% - 10px);
+   
+}
+.card-img{
+    /* width: calc(50% - 10px); */
+   height: 420px;
+    background-image: url(./img/promo_apple_event_september__c1zbjahmv18i_large.jpg);
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #000000;
+   background-position: center;
+    
+}
+.img-section{
+    margin-top: 20px;
+}
+.card{
+   justify-content: center;
+   align-items:flex-end ;
+   align-content: stretch;
+   padding-block: 35px;
+}
+.text{
+   color: white;
+   text-align: center;
+   flex-direction: column;
+   gap: 6px;
+}
+.card01-icon{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0066cc;
+}
+.img-2{
+    background-image: url(./img/promo_iphone14pro_spring__c7pyovk04j2a_large.jpg);
+    align-items: flex-start !important;
+   background-position: center ;
+}
+.text-2{
+    color: white;
+   text-align: center;
+   flex-direction: column;
+   gap: 15px !important;
+}
+.card001{
+    width: calc(50% - 10px);
+    background-image: url(./img/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+    color: white;
+}
+.card002{
+    width: calc(50% - 10px);
+    background-image: url(./img/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #000000;
+   background-position: center;
+   
+}
+.imgcontainer-2{
+  gap: 20px;
+ 
+}
+.box-01{
+    width: calc(50% - 10px);
+    background-image: url(./img/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #000000;
+   background-position: bottom;
+   color: white;
+   height: 420px;
+   flex-direction: column;
+   padding: 25px;
+   text-align: center;
+   gap: 15px;
+   font-size: 1.5rem;
+   /* margin-top: 10px; */
+   
+}
+.box-02{
+    width: calc(50% - 10px);
+    background-image: url(./img/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #000000;
+   background-position: center;
+   color: white;
+   height: 420px;
+   flex-direction: column;
+   padding: 25px;
+   text-align: center;
+   gap: 15px;
+   font-size: 1.5rem;
+}
+
+.white{
+    background-color: white;
+    color: white;
+}
+.img-sec2{
+    margin-top: 15px;
+}
+/* =====================================white img ============================*/
+.white-sec{
+    margin-top: 20px;
+}
+.white-container{
+    /* gap: 20px;/ */
+}
+.box03{
+    /* width: calc(50% - 10px); */
+    background-image: url(./img/tile__cauwwcyyn9hy_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#fbfbfd;
+    background-position: center;
+    color: black;
+    height: 420px;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+.box04{
+    /* width: calc(50% - 10px); */
+    background-image: url(./img/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-color: #fbfbfd;
+   background-position: bottom;
+   color: #000000;
+   height: 420px;
+   flex-direction: column;
+   padding: 25px;
+   text-align: center;
+   gap: 15px;
+   font-size: 1rem;
+}
+/* ==========================================footerp-1=================================== */
+.bold{
+    font-weight: bold;
+}
+.footerp-1{
+    font-size: 0.7rem;
+    background-color: #f5f5f7;
+    margin-top: 20PX;
+}
+.footer-content{
+    width: 70%;
+    margin-inline: auto;
+    padding-block: 20px;
+    color: #6e6e73;
+}
+.border{
+    border-bottom: 2px solid gainsboro;
+
+}
+.footer-content2{
+    width: 70%;
+    margin-inline: auto;
+    padding-block: 10px;
+    color: #6e6e73;
+    /* text-align: center; */
+    justify-content: space-evenly;
+}
+.col-1{
+    font-size: 0.9rem;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+.col-1>a{
+    text-decoration: none;
+}
+.col-1>a:hover{
+    text-decoration: underline;
+}
+.footerp-2{
+    font-size: 0.8rem;
+    background-color: #f5f5f7;
+    /* margin-top: 20PX;  */
+}
+.footer-cont2{
+    width: 70%;
+margin-inline: auto;
+padding-block: 10px;
+color: #6e6e73;
+/* text-align: center; */
+justify-content: space-evenly;
+}
+
+.border-sec{
+
+    background-color: #f5f5f7;
+}
+
+.border-2{
+    border-bottom: 2px solid gainsboro;
+    width: 70%;
+    margin-inline: auto;
+
+}
+.menu{
+    display: flex;
+    flex-basis: 540px;
+    justify-content:space-evenly ;
+}
+.menu>a{
+    text-decoration: none;
+}
+.menu>a:hover{
+    text-decoration: underline;
+}

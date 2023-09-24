@@ -1,0 +1,45 @@
+@media screen and (max-width:400px) {
+    .nav-links{
+       display: none;
+        background-color: burlywood;
+    }
+    .cards{
+        /* width: 100% !important; */
+       flex-direction: column;
+    }
+    .card01{
+        /* flex-direction: column; */
+        width: 100% ;
+        
+    }
+    
+    .imgcontainer-2{
+        flex-direction: column;
+/* padding: 30px; */
+    }
+    .box-01, .box-02{
+        /* flex-direction: column; */
+        width: 85%;
+        /* padding: 10px !; */
+        overflow: hidden;
+    }
+    .white-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box04{
+        /* width: 80% !important; */
+    } 
+    .footer-cont2{
+        flex-direction: column;
+       justify-content: center;
+    }
+    .menu{
+        flex-direction: row;
+        /* row-gap: 30px; */
+        justify-content: space-evenly;
+        flex-basis: 100px;
+        /* flex-wrap: wrap; */
+        
+    }
+}
